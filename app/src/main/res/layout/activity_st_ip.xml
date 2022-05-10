@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    tools:context=".st_ipActivity">
+
+
+    <!-- ============================================== -->
+
+    <Button
+        android:id="@+id/btn_CANCEL_ip"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Cancel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout31"
+        app:layout_constraintVertical_bias="0.016" />
+
+
+    <Button
+        android:id="@+id/btn_OK_ip"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="OK"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.948"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout31"
+        app:layout_constraintVertical_bias="0.016" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout31"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@color/teal_200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.027">
+
+
+        <TextView
+            android:id="@+id/txt_sel_ip"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="IP:"
+            android:textColor="#1a1f0c"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.550"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.200" />
+
+
+        <EditText
+            android:id="@+id/edt_ip1"
+            style="@style/Widget.AppCompat.EditText"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:autofillHints="IP1"
+            android:background="@color/white"
+            android:inputType="number"
+            android:maxLength="3"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:labelFor="@id/edt_ip1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.150"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.855" />
+
+        <EditText
+            android:id="@+id/edt_ip2"
+            style="@style/Widget.AppCompat.EditText"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:autofillHints="IP1"
+            android:background="@color/white"
+            android:inputType="number"
+            android:maxLength="3"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:labelFor="@id/edt_ip2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.350"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.855" />
+
+        <EditText
+            android:id="@+id/edt_ip3"
+            style="@style/Widget.AppCompat.EditText"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:autofillHints="IP1"
+            android:background="@color/white"
+            android:inputType="number"
+            android:maxLength="3"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:labelFor="@id/edt_ip3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.550"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.855" />
+
+        <EditText
+            android:id="@+id/edt_ip4"
+            style="@style/Widget.AppCompat.EditText"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:autofillHints="IP1"
+            android:background="@color/white"
+            android:inputType="number"
+            android:maxLength="3"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:labelFor="@id/edt_ip4"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.750"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.855" />
+
+
+        <!-- ============================================= -->
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
